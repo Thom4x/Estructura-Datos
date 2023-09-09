@@ -20,14 +20,11 @@ pila1 = Pila()
 for i in range(11):
     pila1.apilar(i)
 
-
 print("Pila original:")
 pila1.imprimir()
-
 
 dato_a_eliminar = int(input("Ingresa el dato que desea eliminar : "))
 pila1.elimnd(dato_a_eliminar)
 
 print(f"Dato Eliminado {dato_a_eliminar}:")
 pila1.imprimir()
-
