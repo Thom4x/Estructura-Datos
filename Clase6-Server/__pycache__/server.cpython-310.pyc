@@ -1,3 +1,27 @@
 o
 
+    Uße]  ã                   @   s¸   d dl mZ d dlmZ d dlmZ d dlmZ eƒ Zeƒ Z	e 
+d¡dd„ ƒZe 
+d¡d	d
+„ ƒZe 
+d¡defd
+d„ƒZe 
+d¡dd„ ƒZe 
+d¡dd„ ƒZe d¡defdd„ƒZdS )é    )ÚFastAPI)Ú	BaseModel)ÚUnion)ÚColaú/c                   C   s   dhS )NzBienvenido al super sistema :D© r   r   r   ú:/workspaces/Estructura-Datos/Clase6/TrabajoColas/server.pyÚ	read_root   s   r	   z/estadoc                  C   ó   t  ¡ } d| dœS ©NÚok)ÚstatusÚ	elementos)ÚcolaZcontar©r   r   r   r   Úestado   ó   
+r   z/encolarÚitemc                 C   s   t  | ¡ ddiS )Nr
+   r   )r   Úencolar)r   r   r   r   r      s   
+r   z/desencolarc                  C   r
+   )Nr   )r
+   Úelemento)r   Ú
+desencolar)r   r   r   r   r      r   r   z
+/ver_todosc                  C   r
+   r   )r   Zver_listador   r   r   r   Ú	ver_todos   r   r   z/eliminar/{mensaje_id}Ú
+mensaje_idc                 C   s.   t  | ¡rdd| › ddœS dd| › ddœS )Nr   zMensaje con mensaje_id z eliminado correctamente.)r
+   ÚmessageÚerroru*   No se encontrÃ³ un mensaje con mensaje_id Ú.)r   Úeliminar_mensaje)r   r   r   r   r   %   s   
+r   N)Zfastapir   Zpydanticr   Útypingr   ZPaquete.colar   Úappr   Úgetr	   r   ZpostÚdictr   r   r   ÚdeleteÚintr   r   r   r   r   Ú<module>   s$   
+
+
+
+
+
 
