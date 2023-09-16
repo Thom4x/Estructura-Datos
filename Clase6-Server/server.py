@@ -1,3 +1,5 @@
+#Todas las solicitudes del server, tanto get,post y delete, se realizaron en la plataforma para API "Postman".
+
 from fastapi import FastAPI
 from pydantic import BaseModel
 from typing import Union
