@@ -26,10 +26,5 @@ kmeans.fit(tfidf_matrix)
 # Asignamos cada etiqueta a un clúster
 etiquetas_clusters = pd.DataFrame({'Etiqueta': etiquetas + etiquetas2, 'Cluster': kmeans.labels_})
 
+# Imprimios los resultados
 print(etiquetas_clusters)
-# Imprimimos los resultados
-"""for cluster_id in range(num_clusters):
-    cluster = etiquetas_clusters[etiquetas_clusters['Cluster'] == cluster_id]
-    print(f"Clúster {cluster_id}:")
-    print(cluster['Etiqueta'].tolist())
-    print()"""
