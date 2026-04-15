@@ -125,8 +125,6 @@ def main():
 
     cantidad_usuarios = int(input("Ingrese la cantidad de usuarios: "))
     lista_usuarios = crear_usuarios(cantidad_usuarios)
-    diferentes_datos()
-    crear_usuarios(cantidad_usuarios)
     imprimir_usuarios(lista_usuarios)
     eliminar_usuario_por_id(lista_usuarios)
     agregar_usuarios_extra(lista_usuarios)
