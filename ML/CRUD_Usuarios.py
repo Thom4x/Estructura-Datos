@@ -63,8 +63,6 @@ def crear_usuarios(n):
 
         return usuarios
     
-#Ingresar la cantidad de usuarios
-
 # Imprimir los usuarios creados y sus datos
 def imprimir_usuarios(lista_usuarios):
     imprimir_users = input("¿Desea imprimir la lista de usuarios? (s/n): ")
@@ -92,8 +90,6 @@ def eliminar_usuario_por_id(lista_usuarios):
     else:
         print(f"No se encontraron usuarios con el ID {id_a_eliminar}.")
 
-
-
 #Funcion que nos permite crear nuevos datos que se almaceran en lista_usuarios
 def agregar_usuarios_extra(lista_usuarios):
     cantidad_a_agregar = int(input("Ingrese la cantidad de usuarios que desea agregar: "))
@@ -103,8 +99,6 @@ def agregar_usuarios_extra(lista_usuarios):
         nuevo_usuario = Usuario(nombre, apellidos, carrera, actividad1, actividad2, id_usuario)
         lista_usuarios.append(nuevo_usuario)
         print(f"Se agregó el usuario con el ID: {id_usuario}")
-
-
 
 def verificacion(lista_usuarios):
     verificacion = input("¿Desea imprimir de nuevo la lista de usuarios con los cambios? (s/n):")
